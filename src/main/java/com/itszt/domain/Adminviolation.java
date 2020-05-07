@@ -1,6 +1,7 @@
 package com.itszt.domain;
 
 import com.baomidou.mybatisplus.annotation.TableName;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
 
 import java.io.Serializable;
@@ -42,6 +43,7 @@ public class Adminviolation implements Serializable {
     /**
      * 具体日期
      */
+
     private LocalDateTime sslong;
 
     /**
